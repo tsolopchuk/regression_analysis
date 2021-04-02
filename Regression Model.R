@@ -1,10 +1,10 @@
 #load dependent variables dataset 
-data <- read.csv("C:\\Users\\mattn\\Desktop\\DAP\\Regression Model\\Regression\\2018 and 2019 dataset - Copy.csv",
+data <- read.csv("2018 and 2019 dataset - Copy.csv",
                    header = TRUE, stringsAsFactors = FALSE)
 
 #load and explore dependent variable 
 library(readxl)
-happiness_score <- read_xlsx("C:\\Users\\mattn\\Desktop\\DAP\\Regression Model\\Regression\\Happiness data 2019.xlsx",
+happiness_score <- read_xlsx("Happiness data 2019.xlsx",
                              col_names = TRUE)
 
 library(dplyr)
